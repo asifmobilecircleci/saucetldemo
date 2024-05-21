@@ -99,6 +99,8 @@ jobs:
     environment:
       APP: DemoApp-Simulator.zip
       TEST_APP: DemoAppUITests-Runner-Simulator.zip
+      SAUCE_USERNAME: oauth-asifbillionbus786-7d46
+      SAUCE_ACCESS_KEY: 4a919a9f-cea3-48cc-b58b-645ab4442d7e
     steps:
       - checkout
       - attach_workspace:
